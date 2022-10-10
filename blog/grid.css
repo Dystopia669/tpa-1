@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color: #1A1A1B ;
+}
+
+.container {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#gambar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+
+    align-items: center;
+    padding-top: 10px;
+    max-width: 15%;
+    max-height: 15%;
+}
+
+h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+p {
+    padding-left: 30px;
+    max-width: 50%;
+}
+
+#link {
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
