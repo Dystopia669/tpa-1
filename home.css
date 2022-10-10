@@ -1,0 +1,85 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color: #1A1A1B ;
+}
+
+.active {
+    color: black;
+}
+
+#navbar {
+    margin  : auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+  }
+  
+#navbar li {
+    display: flex;
+  }
+  
+ li a {
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+
+.photo {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  }
+
+#profile {
+  height: 200px;
+  width: 200px;
+  padding-top: 10px;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+#title {
+  width: 600px;
+  height: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
+#text {
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 600px;
+  height: auto;
+  font-size: 15px;
+}
+
+.btn-sosmed {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+  padding-top: 10px;
+}
+
+#ig {
+  width: 50px;
+  height: 50px;
+  padding-right: 15px;
+}
+#fb  {
+  width: 50px;
+  height: 50px;
+}
+#link {
+  width: 50px;
+  height: 50px;
+  padding-left: 15px;
+}

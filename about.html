@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <title>About</title>
 </head>
 <body>
     <ul id="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a class="active" href="portfolio.html">Portfolio</a></li>
-        <li><a class="active" href="article.html">Article</a></li>
+        <li><a id="btn-navbar" href="home.html">Home</a></li>
+        <li><a id="btn-navbar" href="about.html">About Me</a></li>
+        <li><a id="btn-navbar" href="portfolio.html">Portfolio</a></li>
+        <li><a id="btn-navbar" href="article.html">Article</a></li>
     </ul>
     <div class="container">
-        <img src="1x1.jpg" alt="">
-        <h3>Muhammad Alif Nur Fajri</h3>
-        <p>Hallo, nama saya Muhammad Alif Nur Fajri. Saya adalah seorang programmer pemula dan seorang Desainer grafis.</p>
-    </div>
-    <div class="row">
-        <div id="profile1">
+        <div id="photo">
+            <img src="1x1.jpg" alt="">
         </div>
-        <div id="profile2">
-            <ul>
-                <li>Birthday    : 01 Agustus 2001</li>
-                <li>City        : Batam, Kepulauan Rian</li>
-                <li>Phone       : 0895377302058</li>
-            </ul>
-        </div>
-        <div id="profile3">
-            <ul>
-                <li>Age         : 21</li>
-                <li>Email       : nuralif34466@gmail.com</li>
-                <li>University  : Universitas Amikom Yogyakarta</li>
-            </ul>
+        <div id="deskripsi">
+            <h3>Muhammad Alif Nur Fajri</h3>
+            <p>Hallo, nama saya Muhammad Alif Nur Fajri. Saya adalah seorang programmer pemula dan seorang Desainer grafis. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="container">
+                <ul id="profile1">
+                    <li>Birthday    : 01 Agustus 2001</li>
+                    <li>City        : Batam, Kepulauan Riau</li>
+                    <li>Phone       : 0895377302058</li>
+                </ul>
+                <ul id="profile2">
+                    <li>Age         : 21</li>
+                    <li>Email       : nuralif34466@gmail.com</li>
+                    <li>University  : Universitas Amikom Yogyakarta</li>
+                </ul>
+            </div>
+            <h3>Skills :</h3>
+            <div class="skill-container">
+                <p>HTML</p>
+                <div class="skillbar">
+                    <div class="skills html">80%</div>
+                </div>
+            </div>
+            <div class="skill-container">
+                <p>CSS</p>
+                <div class="skillbar">
+                    <div class="skills css">60%</div>
+                </div>
+            </div>
+            <div class="skill-container">
+                <p>Javascript</p>
+                <div class="skillbar">
+                    <div class="skills js">40%</div>
+                </div>
+            </div>
         </div>
     </div>
         
 
     
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

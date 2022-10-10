@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color: #1A1A1B ;
+}
+
+#navbar {
+    margin  : auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+  }
+  
+#navbar li {
+    display: flex;
+  }
+  
+  li a {
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+
+
+
+/* CSS ABOUT */
+.container {
+    display: inline-grid;
+    box-sizing: border-box;
+}
+
+#photo {
+    padding: 30px;
+    max-height: 280px;
+    grid-column: 1/2;
+}
+
+#deskripsi {
+    padding-top: 15px;
+    margin-left: 50px;
+    grid-column: 2/5;
+    max-width: 60%;
+}
+
+img {
+    padding-left: 10%;
+    max-height: 100%;
+    padding-top: 20px;
+}
+
+h3 {
+    color: white;
+    padding-top: auto;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+.active {
+    color: black
+}
+
+#profile1 {
+    padding-top: 0;
+    color: white;
+    grid-column: 1/2;
+}
+
+#profile2 {
+    color: white;
+    grid-column: 3/4;
+}
+
+
+.skill-container {
+    max-width: 100%;
+}
+
+.skillbar {
+    width: 100%;
+    background-color: white;
+}
+
+.skills {
+    height: 3px;
+    font-size: 10px;
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+}
+
+.html {
+    width: 80%;
+    background-color: #ce740d;
+}
+
+.css {
+    width: 60%;
+    background-color: #0d67ce;
+}
+
+.js {
+    width: 40%;
+    background-color: #e8e810;
+}

@@ -1,12 +1,10 @@
-// const ul = document.querySelector("ul")
-// const aa = document.querySelector("a")
+const buttonNavbar = document.querySelectorAll('#btn-navbar')
+const pathname = location.pathname
 
-// ul.addEventListener("click", function(event) {
-//     event.preventDefault();
+url = pathname.split('/')
 
-//     if(event.target.classList.constains("active")) {
-
-//         event.target.classList.add("aktif")
-//     }
-    
-// })
+  buttonNavbar.forEach((button) => {
+    if (button.getAttribute('href') == url[url.length - 1]) {
+      button.classList.add('active')
+    }
+  })
